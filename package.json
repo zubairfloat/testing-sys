@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index",
-    "dev": "ts-node index.ts"
+    "dev": "nodemon index.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.17",
