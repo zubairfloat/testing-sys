@@ -2,7 +2,7 @@ import * as express from "express";
 import { connection } from "./connection/connection";
 import userRoutes from "./routes/userRoutes";
 
-
+require('dotenv').config()
 const app = express();
 app.use(express.json());
 
