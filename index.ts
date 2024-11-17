@@ -1,4 +1,4 @@
-import * as express from "express";
+import express from "express";
 import { connection } from "./connection/connection";
 import userRoutes from "./routes/userRoutes";
 

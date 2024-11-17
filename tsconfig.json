@@ -1,8 +1,15 @@
 {
     "compilerOptions": {
-        "types": [],
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true
-        
-    }
-}
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "types": [],
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
